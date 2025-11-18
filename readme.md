@@ -57,7 +57,7 @@ API subirá em:
 4. Rodar o frontend
 cd frontend
 npm install
-npm run dev
+npm start
 
 
 Frontend estará em:
