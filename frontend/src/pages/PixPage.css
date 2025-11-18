@@ -1,0 +1,55 @@
+.pix-container {
+    height: 100vh;
+    background: #0d0d0d;
+    color: #fff;
+    padding: 30px;
+}
+
+.pix-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.pix-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #1a1a1a;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+.pix-input:focus {
+    outline: none;
+    background: #222;
+}
+
+.pix-button {
+    width: 100%;
+    padding: 15px;
+    background: #6e5dfc;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.pix-button:hover {
+    background: #5a49e0;
+}
+
+.pix-back {
+    margin-top: 15px;
+    background: none;
+    color: #aaa;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}

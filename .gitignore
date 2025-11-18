@@ -1,0 +1,39 @@
+##############################
+# BACKEND - SPRING BOOT
+##############################
+backend/target/
+backend/.settings/
+backend/.classpath
+backend/.project
+backend/.factorypath
+
+# Logs
+*.log
+backend/logs/
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+
+##############################
+# FRONTEND - REACT
+##############################
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/dist/
+
+##############################
+# SYSTEM / EDITOR
+##############################
+.DS_Store
+Thumbs.db
+
+##############################
+# VS CODE
+##############################
+.vscode/
+
+# Docker
+**/docker-compose.yml
+**/docker-compose.yaml
