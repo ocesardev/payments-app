@@ -10,6 +10,7 @@ Ele inclui login com JWT, permissões básicas, transações via PIX e CRUD de c
 Foi desenvolvido com foco em aprendizado real, boas práticas, arquitetura limpa e stack moderna.
 
 **🛠 Tecnologias utilizadas**
+
 Backend
 
 Java 17
