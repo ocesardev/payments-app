@@ -7,7 +7,7 @@ Sistema de pagamentos completo com autenticação JWT, CRUD de clientes e transa
 O payments-app é um sistema de pagamentos inspirado no fluxo real de uma fintech.
 Ele inclui login com JWT, permissões básicas, transações via PIX e CRUD de clientes/pagamentos totalmente funcional via API.
 
-Foi desenvolvido com foco em aprendizado real, boas práticas, arquitetura limpa e stack moderna — ideal para ambiente corporativo como o Itaú.
+Foi desenvolvido com foco em aprendizado real, boas práticas, arquitetura limpa e stack moderna.
 
 **🛠 Tecnologias utilizadas**
 Backend
