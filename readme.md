@@ -1,16 +1,16 @@
-📦 payments-app
+**📦 payments-app**
 
 Sistema de pagamentos completo com autenticação JWT, CRUD de clientes e transações, integração React + Spring Boot e banco Postgres via Docker.
 
-🚀 Sobre o projeto
+**🚀 Sobre o projeto**
 
 O payments-app é um sistema de pagamentos inspirado no fluxo real de uma fintech.
 Ele inclui login com JWT, permissões básicas, transações via PIX e CRUD de clientes/pagamentos totalmente funcional via API.
 
 Foi desenvolvido com foco em aprendizado real, boas práticas, arquitetura limpa e stack moderna — ideal para ambiente corporativo como o Itaú.
 
-🛠 Tecnologias utilizadas
-Backend (Java + Spring Boot)
+**🛠 Tecnologias utilizadas**
+Backend
 
 Java 17
 
@@ -24,36 +24,17 @@ PostgreSQL
 
 Docker / Docker Compose
 
-Frontend (React + TypeScript)
-
-React + Vite
+Frontend
 
 TypeScript
 
+React
+
 Axios
 
-Tailwind (se estiver usando; se não, apague essa linha)
+CSS Puro
 
-📂 Estrutura do projeto
-payments-app/
-│
-├── backend/
-│   ├── src/main/java/com/caio/payments/
-│   │   ├── controller/
-│   │   ├── service/
-│   │   ├── repository/
-│   │   ├── model/
-│   │   └── dto/
-│   └── Dockerfile
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-└── docker-compose.yml
-
-⚙️ Como rodar o projeto localmente
+**⚙️ Como rodar o projeto localmente**
 1. Clonar o repositório
 git clone https://github.com/ocesardev/payments-app.git
 cd payments-app
@@ -81,7 +62,7 @@ npm run dev
 Frontend estará em:
 👉 http://localhost:5173
 
-🔐 Autenticação JWT
+**🔐 Autenticação JWT**
 
 O login gera um token JWT que é utilizado para acessar rotas protegidas.
 
@@ -99,8 +80,8 @@ Formato do token:
 
 Authorization: Bearer SEU_TOKEN_AQUI
 
-💸 Funcionalidades
-Backend
+**💸 Funcionalidades**
+**Backend**
 
 Login e autenticação com JWT
 
@@ -110,8 +91,6 @@ Clients
 
 Payments
 
-Controle de permissões
-
 Integração com Postgres via JPA
 
 Validação de dados
@@ -120,7 +99,7 @@ Hash de senha
 
 Transação PIX (mock funcional)
 
-Frontend
+**Frontend**
 
 Atualmente disponível:
 
@@ -130,7 +109,7 @@ Tela de transação PIX
 
 Consumo da API via Axios
 
-Próximas telas (em construção):
+**Próximas telas (em construção):**
 
 Dashboard
 
@@ -138,8 +117,7 @@ Listagem de pagamentos
 
 Listagem de clientes
 
-🖼 Demonstração
-Login
+**🖼 Demonstração Login**
 
 COLOCAR_PRINT_LOGIN_AQUI
 
@@ -159,7 +137,7 @@ flowchart TD
     B --> E[DTOs]
     A --> F[Security / JWT]
 
-📌 Roadmap (to-do)
+**📌 Roadmap (to-do)**
 
  Criar dashboard no frontend
 
@@ -186,5 +164,4 @@ Sugestões de melhoria são bem-vindas
 👨‍💻 Autor
 
 Caio César
-Desenvolvedor Java/React | Focado em FinTechs e Sistemas de Pagamentos
 LinkedIn: COLOCAR_LINK_LINKEDIN_AQUI
