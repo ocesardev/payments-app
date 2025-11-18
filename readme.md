@@ -120,15 +120,19 @@ Listagem de clientes
 
 **🖼 Demonstração Login**
 
-COLOCAR_PRINT_LOGIN_AQUI
+<img src="./assets/login.png" width="1000" />
+
+Conta e Saldo
+
+<img src="./assets/account.png" width="1000" />
 
 Transação PIX
 
-COLOCAR_PRINT_PIX_AQUI
+<img src="./assets/pix.png" width="1000" />
 
-Fluxo completo (GIF)
+Fluxo de Pagamento
 
-COLOCAR_GIF_DEMONSTRACAO_AQUI
+<img src="./assets/fluxo.gif" width="1000" />
 
 🧱 Arquitetura do Backend
 flowchart TD
