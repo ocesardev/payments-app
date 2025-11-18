@@ -154,14 +154,6 @@ flowchart TD
 
  Pipeline CI/CD
 
-📎 Como contribuir (opcional)
-
-Abra uma issue
-
-Envie um PR
-
-Sugestões de melhoria são bem-vindas
-
 👨‍💻 Autor
 
 Caio César
